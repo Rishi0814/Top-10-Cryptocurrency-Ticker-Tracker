@@ -12,9 +12,9 @@ window.onload = function () {
             <div class="grid-item grid-item-data">${item.id}</div>
             <div class="grid-item grid-item-data">${item.name}</div>
             <div class="grid-item grid-item-data">${item.last}</div>
-            <div class="grid-item grid-item-data">${item.price}</div>
+            <div class="grid-item grid-item-data">${item.buy}/${item.sell}</div>
             <div class="grid-item grid-item-data">${item.volume}</div>
-            <div class="grid-item grid-item-data">${item.unit}</div>
+            <div class="grid-item grid-item-data">${item.base_unit}</div>
           `;
           gridContainer.insertAdjacentHTML("beforeend", gridItems);
         });
